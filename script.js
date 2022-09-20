@@ -1,3 +1,4 @@
+//---------------amzSES------------------------------
 const configure = {
     accessKeyId: "AKIATI4RZPXX4OUUO7AS",
     secretAccessKey: "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",
@@ -6,7 +7,6 @@ const configure = {
 }
 
 const ses = new AWS.SES(configure);
-
 
 function demo() {
     const params = {
@@ -38,6 +38,10 @@ function demo() {
         }
     })
 }
+
+
+//--------------------jsPDF--------------------------
+
 
 var form = document.getElementById('forum');
 
